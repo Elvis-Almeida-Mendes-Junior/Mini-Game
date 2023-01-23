@@ -160,7 +160,7 @@ const btnFunctions = {
     }//mudar o estado de jogo
 }
 function setTime(){
-        interval = setInterval(cronometro,100)
+        interval = setInterval(cronometro,1000)
 
 }
 function cronometro(){
